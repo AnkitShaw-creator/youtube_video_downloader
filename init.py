@@ -14,7 +14,7 @@ def get_resources():
     print("Age restriction:", yt.age_restricted)
     print(f"Length:{yt.length} seconds")
     
-    choice= input("Want to download?(y/n)")
+    choice= input("Want to download?(y/n): ")
     return choice
 
 
